@@ -1,0 +1,14 @@
+
+public class Function
+{
+public static void main(String args[])
+{
+        int a = 20;
+        int b = 10;
+        System.out.println("the result is of new b : "+(a-- - --a));
+        System.out.println("the result is of c : "+(a--));
+        System.out.println("the result is of d : "+(a>>2));
+        System.out.println("the result is of e : "+(a&b));
+    }
+}
+
